@@ -1,0 +1,31 @@
+Description
+
+This project contains three machine learning classifiers such as Naive Bayes, Decision Tree, and MLP. And these classifiers will be implemented to a movie classification test using an open ended dataset.
+
+
+
+Architecture
+
+In this project, there are three major files including Nb-classifier.ipynb, Decision tree classifier.ipynb, and MLP classifier.ipynb. And each classifier implements two kinds of data processing methods such as One-Hot and Tf-Idf. In Decision tree classifier, it executes two different parameters, "Gini" and "Entropy", these parameters will influence the classifier's performance.
+
+    Nb-classifier.ipynb:
+        The chosen Naïve Bayes classifier is Gaussian NB.
+            1st section - NB classifier using tf-idf as data processing method
+            2nd section - NB classifier using one-hot as data processing method
+
+    Decision tree classifier.ipynb:
+        1st section - Decision tree classifier using tf-idf as data processing method
+                           Classifier parameter: Gini Impurity(default)
+        2nd section - Decision tree classifier using tf-idf as data processing method
+                            Classifier parameter: Entropy
+        3rd section - Decision tree classifier using one-hot as data processing method
+                            Classifier parameter: Gini Impurity(default)
+        4th section - Decision tree classifier using one-hot as data processing method
+                            Classifier parameter: Entropy
+
+    MLP classifier.ipynb:
+        1st section - MLP classifier using tf-idf as data processing method
+                           Classifier parameter: solver=adam, learning rate=0.001
+        2nd section - MLP classifier using one-hot as data processing method
+                            Classifier parameter: solver=adam, learning rate=0.001
+        3rd section – Convert the data into usable form for the Kaggle.
